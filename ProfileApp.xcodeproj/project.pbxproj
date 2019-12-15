@@ -13,7 +13,6 @@
 		3EB11C4B23A32B480010A5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB11C4923A32B480010A5A9 /* Main.storyboard */; };
 		3EB11C4D23A32B570010A5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB11C4C23A32B570010A5A9 /* Assets.xcassets */; };
 		3EB11C5023A32B570010A5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB11C4E23A32B570010A5A9 /* LaunchScreen.storyboard */; };
-		3EB11C5823A32F1B0010A5A9 /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB11C5723A32F1B0010A5A9 /* ServerData.json */; };
 		3EB11C5C23A32FBE0010A5A9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C5B23A32FBE0010A5A9 /* Profile.swift */; };
 		3EB11C5E23A330350010A5A9 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C5D23A330350010A5A9 /* Friend.swift */; };
 		3EB11C6023A330760010A5A9 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C5F23A330760010A5A9 /* Attribute.swift */; };
@@ -31,6 +30,7 @@
 		3EB11C7D23A4A5070010A5A9 /* ProfileEmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C7C23A4A5070010A5A9 /* ProfileEmailCell.swift */; };
 		3EB11C7F23A5B3700010A5A9 /* ProfileAttributesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C7E23A5B3700010A5A9 /* ProfileAttributesCell.swift */; };
 		3EB11C8123A5B78E0010A5A9 /* ProfileFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB11C8023A5B78E0010A5A9 /* ProfileFriendsCell.swift */; };
+		3EB11C8323A5E38F0010A5A9 /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EB11C8223A5E38F0010A5A9 /* ServerData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		3EB11C4C23A32B570010A5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB11C4F23A32B570010A5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB11C5123A32B570010A5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EB11C5723A32F1B0010A5A9 /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ServerData.json; path = ../../../../Downloads/ServerData.json; sourceTree = "<group>"; };
 		3EB11C5B23A32FBE0010A5A9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		3EB11C5D23A330350010A5A9 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		3EB11C5F23A330760010A5A9 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		3EB11C7C23A4A5070010A5A9 /* ProfileEmailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEmailCell.swift; sourceTree = "<group>"; };
 		3EB11C7E23A5B3700010A5A9 /* ProfileAttributesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAttributesCell.swift; sourceTree = "<group>"; };
 		3EB11C8023A5B78E0010A5A9 /* ProfileFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFriendsCell.swift; sourceTree = "<group>"; };
+		3EB11C8223A5E38F0010A5A9 /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServerData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				3EB11C4C23A32B570010A5A9 /* Assets.xcassets */,
 				3EB11C4E23A32B570010A5A9 /* LaunchScreen.storyboard */,
 				3EB11C5123A32B570010A5A9 /* Info.plist */,
-				3EB11C5723A32F1B0010A5A9 /* ServerData.json */,
+				3EB11C8223A5E38F0010A5A9 /* ServerData.json */,
 			);
 			path = ProfileApp;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB11C5823A32F1B0010A5A9 /* ServerData.json in Resources */,
+				3EB11C8323A5E38F0010A5A9 /* ServerData.json in Resources */,
 				3EB11C5023A32B570010A5A9 /* LaunchScreen.storyboard in Resources */,
 				3EB11C4D23A32B570010A5A9 /* Assets.xcassets in Resources */,
 				3EB11C4B23A32B480010A5A9 /* Main.storyboard in Resources */,

@@ -1,0 +1,39 @@
+{
+    "data": {
+        "id": 1,
+        "fullName": "Tom Sawyer",
+        "pictureUrl": "tom",
+        "email": "tomSawyer@gmail.com",
+        "about": "Tom Sawyer is a director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. His background in brand strategy, visual design, and account management inform his mindful but competitive approach. Tom is fueled by his passion for understanding the nuances of cross-cultural advertising. He considers himself a ‘forever student,’ eager to both build on her academic foundations in psychology and sociology and stay in tune with the latest digital marketing strategies through continued coursework.",
+        "friends": [
+                    {
+                    "name": "Huckleberry Finn",
+                    "pictureUrl": "finn"
+                    },
+                    {
+                    "name": "Becky Thatcher",
+                    "pictureUrl": "becky"
+                    },
+                    {
+                    "name": "Celeste Holm",
+                    "pictureUrl": "holm"
+                    }
+                    ],
+        "profileAttributes": [
+                              {
+                              "key": "Date of birth",
+                              "value": "November 30, 1835"
+                              },
+                              {
+                              "key": "Gender",
+                              "value": "male"
+                              },
+                              {
+                              "key": "Height",
+                              "value": "180"
+                              }
+                              ]
+    },
+    "error": 0,
+    "message": "Success"
+}
